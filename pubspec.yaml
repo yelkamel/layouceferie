@@ -1,0 +1,39 @@
+name: layouceferie
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  responsive_builder: ^0.1.2
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: AirbnbCereal
+      fonts:
+        - asset: assets/fonts/AirbnbCerealLight.ttf
+          weight: 300
+        - asset: assets/fonts/AirbnbCerealBook.ttf
+          weight: 400
+        - asset: assets/fonts/AirbnbCerealMedium.ttf
+          weight: 600
+        - asset: assets/fonts/AirbnbCerealBold.ttf
+          weight: 700
+        - asset: assets/fonts/AirbnbCerealExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/AirbnbCerealBlack.ttf
+          weight: 900
+  
