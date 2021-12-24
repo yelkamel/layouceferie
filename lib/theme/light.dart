@@ -5,7 +5,6 @@ import 'color.dart';
 final ThemeData lightTheme = ThemeData(
   backgroundColor: LaYouColors.white,
   scaffoldBackgroundColor: LaYouColors.white,
-  accentColor: LaYouColors.orange,
   dividerColor: LaYouColors.grey,
   dialogBackgroundColor: LaYouColors.white,
   highlightColor: Colors.transparent,
@@ -66,7 +65,6 @@ final ThemeData lightTheme = ThemeData(
   iconTheme: IconThemeData(color: LaYouColors.black),
   unselectedWidgetColor: LaYouColors.black,
   fontFamily: 'AirbnbCereal',
-  cursorColor: LaYouColors.black,
   cardTheme: CardTheme(
     margin: const EdgeInsets.all(10),
     color: LaYouColors.white,
@@ -76,5 +74,5 @@ final ThemeData lightTheme = ThemeData(
     elevation: 0,
     color: Colors.transparent,
     iconTheme: IconThemeData(color: LaYouColors.black),
-  ),
+  ), textSelectionTheme: TextSelectionThemeData(cursorColor: LaYouColors.black), colorScheme: ColorScheme.fromSwatch().copyWith(secondary: LaYouColors.orange),
 );

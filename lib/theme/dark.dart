@@ -6,7 +6,6 @@ final ThemeData darkTheme = ThemeData(
   backgroundColor: LaYouColors.black,
   scaffoldBackgroundColor: LaYouColors.black,
   primaryColor: LaYouColors.belge,
-  accentColor: LaYouColors.orange,
   dividerColor: LaYouColors.grey.withOpacity(0.6),
   highlightColor: Colors.transparent,
   splashColor: Colors.transparent,
@@ -65,7 +64,6 @@ final ThemeData darkTheme = ThemeData(
   ),
   iconTheme: IconThemeData(color: LaYouColors.white),
   unselectedWidgetColor: LaYouColors.white,
-  cursorColor: LaYouColors.white,
   fontFamily: 'AirbnbCereal',
   cardTheme: CardTheme(
     margin: const EdgeInsets.all(10),
@@ -76,5 +74,5 @@ final ThemeData darkTheme = ThemeData(
     elevation: 0,
     color: Colors.transparent,
     iconTheme: IconThemeData(color: LaYouColors.white),
-  ),
+  ), textSelectionTheme: TextSelectionThemeData(cursorColor: LaYouColors.white), colorScheme: ColorScheme.fromSwatch().copyWith(secondary: LaYouColors.orange),
 );

@@ -3,7 +3,7 @@ import 'package:layouceferie/home/widget/intro.dart';
 import 'package:layouceferie/widget/cta/cta.dart';
 
 class HomeContentDesktop extends StatelessWidget {
-  const HomeContentDesktop({Key key}) : super(key: key);
+  const HomeContentDesktop({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Row(

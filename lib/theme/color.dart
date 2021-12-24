@@ -1,8 +1,6 @@
 import 'dart:math';
 import 'dart:ui';
 
-import 'package:layouceferie/extension.dart';
-
 class LaYouColors {
   static Color black = Color(0xff241F37); //  #241F37
   static Color secondaryBlack = Color(0xff342F4C); //  #342F4C
@@ -24,22 +22,22 @@ class LaYouColors {
   static Color belge = Color(0xffFFF6ED); //  #FFF6ED
   static Color orange = Color(0xffFFAC73); //  #FFAC73
 
-  static Color get oneRandomColor {
-    final List<String> array = [
-      '#C5B7FD',
-      "#B5FFC6",
-      "#FFD191",
-      "#C0CDE7",
-      "#68D5FB",
-      "#FE6D51",
-      "#9AFFB1",
-      "#FCE8C3",
-      "#FF8E60",
-      "#8AD0FC",
-      "#F6C383",
+  static Color oneRandomColor() {
+    final List<Color> array = [
+      Color(0xffC5B7FD), // #C5B7FD,
+      Color(0xffB5FFC6), // #B5FFC6,
+      Color(0xffFFD191), // #FFD191,
+      Color(0xffC0CDE7), // #C0CDE7,
+      Color(0xff68D5FB), // #68D5FB,
+      Color(0xffFE6D51), // #FE6D51,
+      Color(0xff9AFFB1), // #9AFFB1,
+      Color(0xffFCE8C3), // #FCE8C3,
+      Color(0xffFF8E60), // #FF8E60,
+      Color(0xff8AD0FC), // #8AD0FC,
+      Color(0xffF6C383), // #F6C383,
     ];
 
     final randomStrColor = array[Random().nextInt(array.length - 1)];
-    return randomStrColor.hexToColor;
+    return randomStrColor;
   }
 }
